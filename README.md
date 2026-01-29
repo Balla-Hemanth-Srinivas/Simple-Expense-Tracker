@@ -1,98 +1,37 @@
-# 📘 Personal Expense Tracker (CLI)
+# ExpenseFlow - Smart Expense Tracker
 
-A simple and beginner-friendly command-line application to record daily expenses and compute a running total.  
-All expenses are saved in a readable CSV file, making it easy to open in Excel or extend with additional features.
+A powerful, JavaScript-heavy expense tracking application with interactive charts and data visualization.
 
----
+## 📁 Files
 
-## 📂 Project Files
-- **`Expence Tracker.py`** — Main Python script (keeps the original filename spelling).
-- **`expenses.csv`** — Created automatically on first use; stores all expense records.
+| File | Description |
+|------|-------------|
+| [index.html](file:///c:/Users/bhema/OneDrive/Desktop/My%20Projects/HCJ/expense-tracker/index.html) | App structure with views |
+| [styles.css](file:///c:/Users/bhema/OneDrive/Desktop/My%20Projects/HCJ/expense-tracker/styles.css) | Dark theme, responsive UI |
+| [script.js](file:///c:/Users/bhema/OneDrive/Desktop/My%20Projects/HCJ/expense-tracker/script.js) | **500+ lines** of JavaScript |
 
----
+## ✨ JavaScript Features
 
-## 🚀 Features
-- Add expenses with **amount**, **category**, and **timestamp**.
-- Stores data in a clean CSV format:
-  ```
-  category, ₹amount, YYYY-MM-DD HH:MM:SS
-  ```
-- Displays the **total of all expenses**.
-- Input validation:
-  - Prevents invalid amount entries  
-  - Validates category text  
-  - Handles invalid menu selections
+- **CRUD Operations** - Create, Read, Update, Delete transactions
+- **LocalStorage Persistence** - Data survives browser refresh
+- **Canvas Pie Chart** - Expense breakdown by category
+- **Bar Chart** - 6-month income/expense comparison
+- **Filtering & Search** - By type, category, month, text
+- **Export to CSV** - Download your data
+- **Toast Notifications** - User feedback on actions
+- **Currency Formatting** - Indian Rupee (₹) format
 
----
+## 🚀 Deploy to GitHub Pages
 
-## 🛠 Requirements
-- **Python 3.6 or newer**  
-- Uses only standard Python libraries (`csv`, `datetime`)
+1. Create a GitHub repository
+2. Push the `expense-tracker` folder
+3. Go to **Settings → Pages → Branch: main → Save**
+4. Your app will be live!
 
----
+## 🎮 How to Use
 
-## ▶️ How to Run (PowerShell)
-
-1. Navigate to the project folder:
-   ```powershell
-   cd "Your/Project/Path"
-   ```
-
-2. Run the script:
-   ```powershell
-   python "Expence Tracker.py"
-   ```
-
-3. Choose an option from the menu:
-   - `1` → Add an expense  
-   - `2` → View total expenses  
-   - `3` → Exit the program  
-
----
-
-## 📝 Example Session
-
-```
-1. Add Expense
-2. Summary
-3. Exit
-Choose: 1
-Amount: 150
-Category: transport
-✔ Expense saved successfully.
-
-Choose: 2
-Total Expenses: ₹250.0
-```
-
----
-
-## 📄 CSV Format
-
-Example `expenses.csv` entry:
-
-```
-groceries, ₹1500.0, 2025-11-15 01:00:00
-```
-
----
-
-## ⚠️ Notes & Limitations
-- Automatically creates `expenses.csv` if it doesn’t exist.
-- Amounts are stored as floats.
-- Date/time is assigned automatically.
-- Designed to be simple and fully dependency-free.
-
----
-
-## ➕ Future Improvements
-- Category-wise reports  
-- Monthly summaries  
-- Delete/update entries  
-- Tkinter GUI  
-- Export to JSON / Excel  
-
----
-
-## 📄 License
-This project is free to use, modify, and adapt.
+1. Open `index.html` in browser
+2. Click **Add Transaction** to add income/expenses
+3. View charts on the Dashboard
+4. Filter and search in Transactions view
+5. Export your data as CSV
