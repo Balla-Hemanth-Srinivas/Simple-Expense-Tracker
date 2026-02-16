@@ -6,7 +6,7 @@ All expenses are saved in a readable CSV file, making it easy to open in Excel o
 ---
 
 ## 📂 Project Files
-- **`Expence Tracker.py`** — Main Python script (keeps the original filename spelling).
+- **`Expense_Tracker.py`** — Main Python script.
 - **`expenses.csv`** — Created automatically on first use; stores all expense records.
 
 ---
@@ -40,7 +40,7 @@ All expenses are saved in a readable CSV file, making it easy to open in Excel o
 
 2. Run the script:
    ```powershell
-   python "Expence Tracker.py"
+   python "Expense_Tracker.py"
    ```
 
 3. Choose an option from the menu:
